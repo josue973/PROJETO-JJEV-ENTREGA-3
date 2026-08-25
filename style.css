@@ -87,3 +87,22 @@ body {
 .btn-primary:hover {
     background-color: #e6b800;
 }
+/* Espaçamento e estilo do link de cadastro */
+.signup-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+
+.signup-link a {
+    color: #ffcc00; /* Amarelo idêntico ao botão */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: color 0.2s;
+}
+
+.signup-link a:hover {
+    color: #ffffff; /* Fica branco quando passa o mouse por cima */
+    text-decoration: underline;
+}
