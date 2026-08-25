@@ -1,0 +1,89 @@
+/* Configurações Globais - Tema Escuro */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212; /* Fundo preto/escuro */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container de Login */
+.login-container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo-area h1 {
+    color: #ffcc00; /* Amarelo destaque */
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.logo-area p {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    margin-bottom: 25px;
+}
+
+/* Formulário */
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.input-group input:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+/* Botão */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffcc00; /* Amarelo */
+    border: none;
+    border-radius: 4px;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #e6b800;
+}
