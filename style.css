@@ -106,3 +106,137 @@ body {
     color: #ffffff; /* Fica branco quando passa o mouse por cima */
     text-decoration: underline;
 }
+/* CONTAINER DO APLICATIVO MOBILE */
+.app-container {
+    background-color: #1a1c20;
+    width: 100%;
+    max-width: 412px; /* Tamanho padrão de tela de celular */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOPO */
+.app-header {
+    background-color: #121212;
+    border-bottom: 3px solid #ffcc00;
+    padding: 15px;
+    text-align: center;
+}
+
+.app-header h1 {
+    color: #ffcc00;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* BARRA DE CATEGORIAS AMARELA */
+.categories-nav {
+    background-color: #d8f800; /* Amarelo limão do protótipo */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.categories-nav a {
+    color: #121212;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.categories-nav a.active {
+    border-bottom: 2px solid #000;
+}
+
+/* BARRA DE BUSCA */
+.search-container {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.search-container input {
+    width: 100%;
+    background-color: #d1d5db; /* Cinza claro do protótipo */
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #121212;
+    font-weight: 500;
+}
+
+/* GRADE DE ÍCONES (3 COLUNAS) */
+.grid-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-circle {
+    background-color: #ffffff;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.icon-circle img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.grid-item span {
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* SEÇÃO DE VANTAGENS (RODAPÉ AMARELO) */
+.advantages-section {
+    background-color: #000000;
+    padding: 15px;
+    margin-top: auto; /* Empurra para o final da tela */
+}
+
+.advantages-section h3 {
+    background-color: #ffcc00;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.advantage-item {
+    background-color: #ffcc00;
+    color: #000;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 8px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.contact-info {
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 1.4;
+}
