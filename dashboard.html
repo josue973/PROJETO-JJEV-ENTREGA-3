@@ -11,10 +11,11 @@
         <!-- Topo com o Nome da Loja -->
         <header class="app-header">
             <h1>JJEV VENDAS ONLINE</h1>
+            <button type="button" id="btn-sair">Sair</button>
         </header>
 
         <!-- Barra de Categorias Rápida (Fundo Amarelo) -->
-        <nav class="categories-nav">
+        <nav class="categories-nav" id="filtro-categorias">
             <a href="#" class="active">Smartphone</a>
             <a href="#">Móveis</a>
             <a href="#">Eletrodomésticos</a>
@@ -22,11 +23,13 @@
 
         <!-- Barra de Busca Cinza -->
         <div class="search-container">
-            <input type="text" placeholder="Buscar na JJEV">
+            <input type="text" id="busca-produto" placeholder="Buscar na JJEV">
+            <button type="button" id="limpar-busca">Limpar busca</button>
         </div>
-
-        <!-- Grade de Ícones / Categorias Principal -->
                 <!-- Grade de Ícones / Categorias Principal -->
+                 <h2 id="titulo-categorias">Categorias disponíveis</h2>
+                 <p id="mensagem-categoria">Escolha uma categoria ou utilize a busca acima.</p>
+                 <p id="sem-resultados" style="display: none;">Nenhuma categoria encontrada.</p>
         <main class="grid-categories">
             <div class="grid-item">
                 <div class="icon-circle"><img src="cupons.png" alt="Cupons"></div>
@@ -68,5 +71,6 @@
             </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
